@@ -1,8 +1,10 @@
+import { TextInput } from 'react'
+
 export default function DrugInput() {
     return (
-        <div>
-            <textInput 
-                placeholder="default"       
+        <div className="TextInputField">
+            <input 
+                placeholder="drug name"       
             />
                 
         </div>
